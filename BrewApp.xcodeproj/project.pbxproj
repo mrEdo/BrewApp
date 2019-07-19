@@ -14,6 +14,9 @@
 		84D71A0922E10760005E1CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D71A0722E10760005E1CEC /* LaunchScreen.storyboard */; };
 		84D71A1422E10760005E1CEC /* BrewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D71A1322E10760005E1CEC /* BrewAppTests.swift */; };
 		84D71A1F22E10760005E1CEC /* BrewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D71A1E22E10760005E1CEC /* BrewAppUITests.swift */; };
+		84D71A2D22E10EF3005E1CEC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D71A2C22E10EF3005E1CEC /* HomeViewController.swift */; };
+		84D71A2F22E10F6A005E1CEC /* AutoLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D71A2E22E10F6A005E1CEC /* AutoLocationViewController.swift */; };
+		84D71A3122E10FB4005E1CEC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D71A3022E10FB4005E1CEC /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		84D71A1A22E10760005E1CEC /* BrewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D71A1E22E10760005E1CEC /* BrewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewAppUITests.swift; sourceTree = "<group>"; };
 		84D71A2022E10760005E1CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D71A2C22E10EF3005E1CEC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84D71A2E22E10F6A005E1CEC /* AutoLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLocationViewController.swift; sourceTree = "<group>"; };
+		84D71A3022E10FB4005E1CEC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				84D71A0522E10760005E1CEC /* Assets.xcassets */,
 				84D71A0722E10760005E1CEC /* LaunchScreen.storyboard */,
 				84D71A0A22E10760005E1CEC /* Info.plist */,
+				84D71A2C22E10EF3005E1CEC /* HomeViewController.swift */,
+				84D71A2E22E10F6A005E1CEC /* AutoLocationViewController.swift */,
+				84D71A3022E10FB4005E1CEC /* SearchViewController.swift */,
 			);
 			path = BrewApp;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D71A3122E10FB4005E1CEC /* SearchViewController.swift in Sources */,
+				84D71A2F22E10F6A005E1CEC /* AutoLocationViewController.swift in Sources */,
 				84D71A0122E1075F005E1CEC /* ViewController.swift in Sources */,
 				84D719FF22E1075F005E1CEC /* AppDelegate.swift in Sources */,
+				84D71A2D22E10EF3005E1CEC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
